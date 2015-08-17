@@ -46,7 +46,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 ```
 
 * 为Sublime Text 3配置Python开发环境
-	* __ctrl+`__安装Package Control
+	* __ctrl+`__粘贴运行下列代码安装Package Control
 		
 		```import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())```
 	* 
