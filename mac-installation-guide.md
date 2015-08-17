@@ -41,6 +41,7 @@ E1D0AE85 A0BBD039 0E9C8D55 E1B89D5D
 B98FC99C 8FAC73EE D2B95564 DF450523
 ------ END LICENSE ------
 ```
+
 	* 为Sublime Text 3配置Python开发环境
 		* __ctrl+`__安装Package Control
 		
