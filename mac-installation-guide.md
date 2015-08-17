@@ -49,6 +49,10 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 	* __ctrl+`__粘贴运行下列代码安装Package Control
 		
 		```import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())```
+	* `command + shift + p`，在里面输入`package control`，再选择`install package`，输入`SublimeCodeIntel`安装输入提示插件，很不错！
+	* 和上一步一样，安装`SublimeREPL`插件，这个插件可以在Sublime里使用Python的raw_input()和input()了。安装好之后在`perferences -- key bindings user`中粘贴如下代码(其中的__f5__可以自定义):	
+	
+			[ {"keys":["f5"],"caption": "SublimeREPL: Python - RUN current file","command": "run_existing_window_command", "args":{"id": "repl_python_run","file": "config/Python/Main.sublime-menu"}}]
 	* 
 				
 ###以下顺序任意
