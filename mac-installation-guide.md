@@ -19,6 +19,7 @@
 	
 #####machunter（可以安装各种盗版软件）
 *	adobe系列（看需求）
+	* 在Safari下有个`ClickToPlugin`的插件，可以强制转会flash视频成html5，这样看视频就不会像flash那样出现发热严重和掉电快的情况。推荐安装！
 *	navicat（数据库）	
 *	transmit（ftp文件管理）
 *	mamp（本地服务器搭建）
