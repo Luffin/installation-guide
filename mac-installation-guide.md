@@ -24,8 +24,10 @@
 *	mamp（本地服务器搭建）
 *	istat menus（好用的硬件监控）
 *	Parallels desktop（虚拟机）
-*	个人需求了~
+* 个人需求了~
 
+===
+###信安学习相关工具
 #####编辑器（个人喜好了，信安方向的话，推荐Sublime Text 3）
 * 官网下载sublime text 3 OS X版
 * 在[这里](http://www.xiumu.org/note/sublime-text-3.shtml)有破解、配置、安装中文包的详细方法。这里附上__License__
@@ -53,7 +55,16 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 	* 和上一步一样，安装`SublimeREPL`插件，这个插件可以在Sublime里使用Python的raw_input()和input()了。安装好之后在`perferences -- key bindings user`中粘贴如下代码(其中的__f5__可以自定义):	
 	
 			[ {"keys":["f5"],"caption": "SublimeREPL: Python - RUN current file","command": "run_existing_window_command", "args":{"id": "repl_python_run","file": "config/Python/Main.sublime-menu"}}]
-	* 
+
+#####Binwalk:后门(固件)分析利器
+
+#####Metasploit渗透测试神器
+* [点击这里](http://www.freebuf.com/articles/system/36924.html)有安装的详细说明
+
+#####Nmap
+* `brew install nmap`安装nmap
+
+
 				
 ###以下顺序任意
 *	mou（markdown必备）
