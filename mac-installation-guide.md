@@ -65,6 +65,10 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 #####Nmap
 * `brew install nmap`安装nmap
 
+#####MAMP(Apache＋PHP＋MySQL环境)
+* 安装好后，打开`.zshrc`文件，把里面的`export PATH`改为`export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/MAMP/Library/bin/"`这样就可在打开MAMP之后直接在终端输入`mysql`进入mysql终端界面
+
+
 
 				
 ###以下顺序任意
