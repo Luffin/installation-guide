@@ -17,6 +17,10 @@
 *	zsh配置主题（视需求) __推荐使用agnoster__(如图)点击[这里](http://www.leelour.com/?p=2423)查看安装方法
 	![agnoster](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 	
+#####macports(类似homebrew的包管理工具，可以便捷安装python里的PIL、OpenCv库)
+* `brew install Caskroom/cask/macports`安装
+* 将macports的路径添加到`.zshrc`里的`export PATH`中
+	
 #####machunter（可以安装各种盗版软件）
 *	adobe系列（看需求）
 	* 在Safari下有个`ClickToPlugin`的插件，可以强制转会flash视频成html5，这样看视频就不会像flash那样出现发热严重和掉电快的情况。推荐安装！
