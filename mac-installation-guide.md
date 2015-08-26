@@ -65,8 +65,9 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 
 #####Metasploit渗透测试神器
 * [点击这里](http://www.freebuf.com/articles/system/36924.html)有安装的详细说明
+* 但是要特别注意的是，这篇文章时间略早，msf对应的ruby版本已经有了变化，具体可以在github的metasploit项目里查看msf最新适合的ruby版本，目前的版本是`ruby 2.1.6p336`
 
-#####Nmap
+#####Nmap(扫描神器)
 * `brew install nmap`安装nmap
 
 #####Sqlmap(sql注入神器)
