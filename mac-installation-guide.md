@@ -62,6 +62,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 			[ {"keys":["f5"],"caption": "SublimeREPL: Python - RUN current file","command": "run_existing_window_command", "args":{"id": "repl_python_run","file": "config/Python/Main.sublime-menu"}}]
 
 #####Binwalk:后门(固件)分析利器
+* `brew install binwalk`
 
 #####Metasploit渗透测试神器
 * [点击这里](http://www.freebuf.com/articles/system/36924.html)有安装的详细说明
