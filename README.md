@@ -1,7 +1,7 @@
 ##mac应用安装指南（信安方向）
 ===
 ###优先级降序排列
-#####xcode（自带环境）
+#####xcode（自带环境,安装后自动集成git，可直接使用）
 #####homebrew（快速环境配置）
 *	homebrew安装:
 	
@@ -23,7 +23,7 @@
 	
 #####machunter（可以安装各种盗版软件）
 *	adobe系列（看需求）
-	* 在Safari下有个`ClickToPlugin`的插件，可以强制转会flash视频成html5，这样看视频就不会像flash那样出现发热严重和掉电快的情况。推荐安装！
+	* **在Safari下有个`ClickToPlugin`的插件，可以强制转会flash视频成html5，这样看视频就不会像flash那样出现发热严重和掉电快的情况。推荐安装！**
 *	navicat（数据库）	
 *	transmit（ftp文件管理）
 *	mamp（本地服务器搭建）
@@ -80,6 +80,17 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 
 #####UItraEdit(16进制编辑器)
 * 在machunter中搜索即可下载到破解中文版
+
+#####BurpSuite(抓包神器)
+* [这里有破解版下载地址](http://www.freebuf.com/tools/18483.html)
+* [这里是使用介绍](http://drops.wooyun.org/tools/1548)
+
+
+#####FireFox浏览器(附带各种牛逼插件)
+* AutoProxy(快速设置代理插件，可配合BurpSuite使用)
+* HackBar
+* FireBug
+* ModifyHeaders
 
 
 
