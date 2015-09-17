@@ -98,6 +98,10 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 
 				
 ###以下顺序任意
+* 词典(Mac自带的词典比较少，而且没有专门的计算机词典，需要自己下载)
+	* 这边提供一个算是全的网站[http://abloz.com/huzheng/stardict-dic/zh_CN/](http://abloz.com/huzheng/stardict-dic/zh_CN/)
+	* 下载`DictUnifler`软件，打开软件将下载对文件包拖入软件中转换生成词典文件。软件会将生产的词典文件自动导入到词典软件的词典目录中
+	* 打开词典软件偏好设置，勾选并拖动词典以调整顺序
 *	mou（markdown必备）
 *	dash（api文档）
 *	chrome（firefox不是调试的话就不管吧）
