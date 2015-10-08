@@ -83,8 +83,8 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 * 在machunter中搜索即可下载到破解中文版
 
 #####BurpSuite(抓包神器)
-* [这里有破解版下载地址](http://www.freebuf.com/tools/18483.html)
-* [这里是使用介绍](http://drops.wooyun.org/tools/1548)
+* [破解版下载地址](http://www.freebuf.com/tools/18483.html)
+* [使用介绍](http://drops.wooyun.org/tools/1548)
 
 
 #####FireFox浏览器(附带各种牛逼插件)
@@ -92,6 +92,11 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 * HackBar
 * FireBug
 * ModifyHeaders
+
+#####Python模块
+* BeautifulSoup(HTML解析)
+* pwntools(CTF快速编写exploit指定产品)
+* requests(比urllib、urllib2更简单好用)
 
 
 
