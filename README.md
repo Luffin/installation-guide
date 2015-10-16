@@ -33,7 +33,7 @@
 
 ===
 ###信安学习相关工具
-#####编辑器（个人喜好了，信安方向的话，推荐Sublime Text 3）
+####编辑器（个人喜好了，信安方向的话，推荐Sublime Text 3）
 * 官网下载sublime text 3 OS X版
 * 在[这里](http://www.xiumu.org/note/sublime-text-3.shtml)有破解、配置、安装中文包的详细方法。这里附上__License__
 ```	
@@ -61,25 +61,25 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 	
 			[ {"keys":["f5"],"caption": "SublimeREPL: Python - RUN current file","command": "run_existing_window_command", "args":{"id": "repl_python_run","file": "config/Python/Main.sublime-menu"}}]
 
-#####Binwalk:后门(固件)分析利器
+####Binwalk:后门(固件)分析利器
 * `brew install binwalk`
 
-#####Metasploit渗透测试神器
+####Metasploit渗透测试神器
 * [点击这里](http://www.freebuf.com/articles/system/36924.html)有安装的详细说明
 * 但是要特别注意的是，这篇文章时间略早，msf对应的ruby版本已经有了变化，具体可以在github的metasploit项目里查看msf最新适合的ruby版本，目前的版本是`ruby 2.1.6p336`
 * __需要注意的是，老版本中的msfpaylode、msfencode现在统一到同一个命令下，叫`msfvenom`，使用`msfvenom -h`查看使用方法__
 
-#####Nmap(扫描神器)
+####Nmap(扫描神器)
 * `brew install nmap`安装nmap
 
-#####Sqlmap(sql注入神器)
+####Sqlmap(sql注入神器)
 * `brew install sqlmap`安装
 
 
-#####MAMP(Apache＋PHP＋MySQL环境)
+####MAMP(Apache＋PHP＋MySQL环境)
 * 安装好后，打开`.zshrc`文件，把里面的`export PATH`改为`export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/MAMP/Library/bin/"`这样就可在打开MAMP之后直接在终端输入`mysql`进入mysql终端界面
 
-#####UItraEdit(16进制编辑器)
+####UItraEdit(16进制编辑器)
 * 在machunter中搜索即可下载到破解中文版
 
 #####BurpSuite(抓包神器)
@@ -87,19 +87,24 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 * [使用介绍](http://drops.wooyun.org/tools/1548)
 
 
-#####FireFox浏览器(附带各种牛逼插件)
+####FireFox浏览器(附带各种牛逼插件)
 * AutoProxy(快速设置代理插件，可配合BurpSuite使用)
 * HackBar
 * FireBug
 * ModifyHeaders
 
-#####Python模块
+####Python模块
 * BeautifulSoup(HTML解析)
 * pwntools(CTF快速编写exploit指定产品)
 * requests(比urllib、urllib2更简单好用)
 
-#####Wireshark(网络嗅探抓包神器)
+####Wireshark(网络嗅探抓包神器)
 * 自行官网下载
+
+####密码破解工具
+#####1.John the ripper(主要用于破解Unix/Linux系统密码等，支持MD5、DES等加密算法)
+* `brew install john`安装
+
 
 
 
