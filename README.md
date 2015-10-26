@@ -73,7 +73,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 * `brew install nmap`安装nmap
 
 ####Sqlmap(sql注入神器)
-* `brew install sqlmap`安装
+* `brew install sqlmap`安装(但是用brew安装的版本太老了)建议在brew装好sqlmap之后，再去Github上知道sqlmap的项目，把源码包下载到电脑上。到`/usr/local/Cellar/sqlmap/0.9_1`目录下，把下载的源码包名改为`libexec`替换掉原有的包。这样就能直接在终端使用`sqlmap`命令使用最新版的sqlmap了
 
 
 ####MAMP(Apache＋PHP＋MySQL环境)
@@ -101,9 +101,8 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 ####Wireshark(网络嗅探抓包神器)
 * 自行官网下载
 
-####密码破解工具
-#####1.John the ripper(主要用于破解Unix/Linux系统密码等，支持MD5、DES等加密算法)
-* `brew install john`安装
+####Hashcat(各种密码破解)
+* `brew install Caskroom/cask/hashcat`安装
 
 
 
