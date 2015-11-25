@@ -85,6 +85,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 #####BurpSuite(抓包神器)
 * [破解版下载地址](http://www.freebuf.com/tools/18483.html)
 * [使用介绍](http://drops.wooyun.org/tools/1548)
+* [抓https包的配置，要下载burp的证书](http://blog.csdn.net/zyw_anquan/article/details/47904495)
 
 
 ####FireFox浏览器(附带各种牛逼插件)
