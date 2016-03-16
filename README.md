@@ -16,6 +16,7 @@
 *	替换成zsh，超级方便（oh_my_zsh,github）
 *	zsh配置主题（视需求) __推荐使用agnoster__(如图)点击[这里](http://www.leelour.com/?p=2423)查看安装方法
 	![agnoster](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
+*	目前个人比较喜欢`Monokai Soda`这个配色方案
 	
 #####macports(类似homebrew的包管理工具，可以便捷安装python里的PIL、OpenCv库)
 * `brew install Caskroom/cask/macports`安装
@@ -36,26 +37,27 @@
 ####编辑器（个人喜好了，信安方向的话，推荐Sublime Text 3）
 * 官网下载sublime text 3 OS X版
 * 在[这里](http://www.xiumu.org/note/sublime-text-3.shtml)有破解、配置、安装中文包的详细方法。这里附上__License__
-```	
------ BEGIN LICENSE -----
-Andrew Weber
-Single User License
-EA7E-855605
-813A03DD 5E4AD9E6 6C0EEB94 BC99798F
-942194A6 02396E98 E62C9979 4BB979FE
-91424C9D A45400BF F6747D88 2FB88078
-90F5CC94 1CDC92DC 8457107A F151657B
-1D22E383 A997F016 42397640 33F41CFC
-E1D0AE85 A0BBD039 0E9C8D55 E1B89D5D
-5CDB7036 E56DE1C0 EFCC0840 650CD3A6
-B98FC99C 8FAC73EE D2B95564 DF450523
------- END LICENSE ------
-```
+
+		----- BEGIN LICENSE -----
+		Andrew Weber
+		Single User License
+		EA7E-855605
+		813A03DD 5E4AD9E6 6C0EEB94 BC99798F
+		942194A6 02396E98 E62C9979 4BB979FE
+		91424C9D A45400BF F6747D88 2FB88078
+		90F5CC94 1CDC92DC 8457107A F151657B
+		1D22E383 A997F016 42397640 33F41CFC
+		E1D0AE85 A0BBD039 0E9C8D55 E1B89D5D
+		5CDB7036 E56DE1C0 EFCC0840 650CD3A6
+		B98FC99C 8FAC73EE D2B95564 DF450523
+		------ END LICENSE ------
+
 
 * 为Sublime Text 3配置Python开发环境
 	* __ctrl+`__粘贴运行下列代码安装Package Control
 		
-		```import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())```
+			import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+			
 	* `command + shift + p`，在里面输入`package control`，再选择`install package`，输入`SublimeCodeIntel`安装输入提示插件，很不错！
 	* 和上一步一样，安装`SublimeREPL`插件，这个插件可以在Sublime里使用Python的raw_input()和input()，也可以在Sublime中使用命令行Python。安装好之后在`perferences -- key bindings user`中粘贴如下代码(其中的__f5__可以自定义):	
 	
@@ -64,6 +66,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 	* `Jedi`另一款Python插件
 	* `Bracket Highlighter`插件
 	* `GitGutter`插件，类似diff的比较插件
+	* 一个很棒的Sublime主题[Material Theme](https://github.com/equinusocio/material-theme)，效果是这样的![Material Theme](https://camo.githubusercontent.com/1ff3f31c6a43cdf5f02e2d54a5afee6802abff23/687474703a2f2f657175696e75736f63696f2e6769746875622e696f2f6d6174657269616c2d7468656d652f6173736574732f6d756c74692e6a7067)
 
 ####Binwalk:后门(固件)分析利器
 * `brew install binwalk`
@@ -98,6 +101,16 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 * FireBug
 * ModifyHeaders
 
+####Chrome
+*	Chrome插件推荐
+	*	postman
+	*	EditThisCookie(修改cookie)
+	*	SwitchySharp(很方便的代理切换工具)
+	*	Octotree(看github时的神器，在浏览器左侧生成类似编辑器的侧边栏，可以显示整个项目树，方便总览项目)
+	*	OneTab(有时看到一些网站不错，但是又以下没时间看，就可以把这个网站存放在OneTab中方便以后查看)
+	*	哔哩哔哩助手\_(:з」∠)\_
+	*	Momentum(好看的Chrome标签页，姚总推荐)
+	*	Avatars for Github(在github动态处显示出不同人的头像，看起来更方便)
 ####Python模块
 * BeautifulSoup(HTML解析)
 * pwntools(CTF快速编写exploit指定产品)
@@ -122,14 +135,8 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 	* 打开词典软件偏好设置，勾选并拖动词典以调整顺序
 *	mou（markdown必备）
 *	dash（api文档）
-*	chrome（firefox不是调试的话就不管吧）
-	*	chrome插件推荐
-		*	postman
-		*	editthiscookie
-		*	switchyomega
-		*	剩下的看自己需求
 *	shadowsocksX（翻墙啊）
 *	alfred2（感觉很厉害）
 *	百度云盘（hehe~）
 *	迅雷
-*	搜狗拼音（）
+*	搜狗拼音
