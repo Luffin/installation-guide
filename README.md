@@ -110,6 +110,7 @@
 	*	哔哩哔哩助手\_(:з」∠)\_
 	*	Momentum(好看的Chrome标签页，姚总推荐)
 	*	Avatars for Github(在github动态处显示出不同人的头像，看起来更方便)
+	*   Power Zoom(鼠标悬停放大图片，看妹子头像\_(:з」∠)\_)
 	
 ####Python模块
 * BeautifulSoup(HTML解析)
@@ -122,21 +123,29 @@
 ####Hashcat(各种密码破解)
 * `brew install Caskroom/cask/hashcat`安装
 
+####Hydra(暴力破解神器)
+* 去Github下载[源码](https://github.com/vanhauser-thc/thc-hydra)
+* 在下好的源码文件夹内依次运行以下命令
 
-
-
-
-
+		./configure
+		make
+		make install
 				
 ###以下顺序任意
+* Aria2（下载神器！下载百度网盘等不会被限速）
+	* 安装`brew install aria2`
+	* 之后在[这里](https://github.com/yangshun1029/aria2gui)下到中文GUI版本
+	* 然后在[这里](https://github.com/acgotaku/BaiduExporter/releases)下到百度网盘Chrome插件，可以在百度网盘里我的设备盘多出一个导出下载按钮，导入Aria2来下载
+	* 在[这里](https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc)下到Chrome插件版的Aria2：`YAAW`，在Chrome浏览器中管理下载任务。__注：该插件为英文版，并且需要翻墙到谷歌商店下载__
 * 词典(Mac自带的词典比较少，而且没有专门的计算机词典，需要自己下载)
 	* 这边提供一个算是全的网站[http://abloz.com/huzheng/stardict-dic/zh_CN/](http://abloz.com/huzheng/stardict-dic/zh_CN/)
 	* 下载`DictUnifler`软件，打开软件将下载对文件包拖入软件中转换生成词典文件。软件会将生产的词典文件自动导入到词典软件的词典目录中
-	* 打开词典软件偏好设置，勾选并拖动词典以调整顺序
+	* 打开词典软件偏好设置，勾选并拖动词典以调整顺序	
 *	mou（markdown必备）
+*	keka目前见到的最简洁功能最全的加解压软件
 *	dash（api文档）
 *	shadowsocksX（翻墙啊）
 *	alfred2（感觉很厉害）
 *	百度云盘（hehe~）
-*	迅雷
+*	迅雷*	
 *	搜狗拼音
