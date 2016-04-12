@@ -22,7 +22,7 @@
 * `brew install Caskroom/cask/macports`安装
 * 将macports的路径添加到`.zshrc`里的`export PATH`中
 	
-#####machunter（可以安装各种盗版软件）
+#####machunter（可以安装各种你懂的软件）
 *	adobe系列（看需求）
 	* **在Safari下有个`ClickToPlugin`的插件，可以强制转会flash视频成html5，这样看视频就不会像flash那样出现发热严重和掉电快的情况。推荐安装！**
 *	navicat（数据库）	
@@ -130,6 +130,10 @@
 		./configure
 		make
 		make install
+		
+####ssh-copy-id
+Mac下没有`ssh-copy-id`，所以需要安装一个，会比`scp`方便
+* 运行命令`brew install ssh-copy-id`使用`brew`来安装
 				
 ###以下顺序任意
 * Aria2（下载神器！下载百度网盘等不会被限速）
