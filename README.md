@@ -116,6 +116,8 @@
 * BeautifulSoup(HTML解析)
 * pwntools(CTF快速编写exploit指定产品)
 * requests(比urllib、urllib2更简单好用)
+* xlrd(读取excel)和xlwt(创建excel表)，两个一起使用效果拔群
+* pinyin4py(Python里转换汉字到拼音的模块)
 
 ####Wireshark(网络嗅探抓包神器)
 * 自行官网下载
