@@ -12,11 +12,12 @@
 	*	`brew update` 升级brew
 	*	`brew upgrade` 升级插件
 	
-#####iterm2（代替terminal终端）
+#####iTerm2（代替terminal终端）
 *	替换成zsh，超级方便（oh_my_zsh,github）
 *	zsh配置主题（视需求) __推荐使用agnoster__(如图)点击[这里](http://www.leelour.com/?p=2423)查看安装方法
 	![agnoster](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 *	目前个人比较喜欢`Monokai Soda`这个配色方案
+*  在iTerm2[官网](http://www.iterm2.com/documentation-images.html)有一个`imgcat`插件，可以直接在命令行中查看图片，非常方便，效果类似这样![imgcat](http://www.iterm2.com/images/inline_image_sparky_demo.png)只需要在[这里](https://raw.github.com/gnachman/iTerm2/master/tests/imgcat)下载imgcat的源码，放入到`/usr/local/bin`之类的目录中，加上执行权限`chmod +x imgcat`，就可以在命令行中当做命令来调用了
 	
 #####macports(类似homebrew的包管理工具，可以便捷安装python里的PIL、OpenCv库)
 * `brew install Caskroom/cask/macports`安装
