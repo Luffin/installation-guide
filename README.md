@@ -148,7 +148,7 @@ Mac下没有`ssh-copy-id`，所以需要安装一个，会比`scp`方便
 	* 这边提供一个算是全的网站[http://abloz.com/huzheng/stardict-dic/zh_CN/](http://abloz.com/huzheng/stardict-dic/zh_CN/)
 	* 下载`DictUnifler`软件，打开软件将下载对文件包拖入软件中转换生成词典文件。软件会将生产的词典文件自动导入到词典软件的词典目录中
 	* 打开词典软件偏好设置，勾选并拖动词典以调整顺序	
-*	mou（markdown必备）
+*	MacDown（markdown必备）
 *	keka目前见到的最简洁功能最全的加解压软件
 *	dash（api文档）
 *	shadowsocksX（翻墙啊）
