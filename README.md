@@ -66,7 +66,7 @@
 	* `Jedi`另一款Python插件
 	* `Bracket Highlighter`插件
 	* `GitGutter`插件，类似diff的比较插件
-	* 一个很棒的Sublime主题[Material Theme](https://github.com/equinusocio/material-theme)，效果是这样的![Material Theme](https://camo.githubusercontent.com/1ff3f31c6a43cdf5f02e2d54a5afee6802abff23/687474703a2f2f657175696e75736f63696f2e6769746875622e696f2f6d6174657269616c2d7468656d652f6173736574732f6d756c74692e6a7067)
+	* 一个很棒的Sublime主题[Material Theme](https://github.com/equinusocio/material-theme)，效果是这样的![Material Theme](https://camo.githubusercontent.com/972bd5d93779fdaf95e02cf0326b429be93adcba/687474703a2f2f692e696d6775722e636f6d2f395079784a4d4e2e676966)
 
 ####Binwalk:后门(固件)分析利器
 * `brew install binwalk`
