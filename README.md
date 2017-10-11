@@ -51,17 +51,17 @@ mac应用安装指南(信安方向)
 * 在[这里](http://www.xiumu.org/note/sublime-text-3.shtml)有破解、配置、安装中文包的详细方法。这里附上__License__
 
 		—– BEGIN LICENSE —–
-		Nicolas Hennion
-		Single User License
-		EA7E-866075
-		8A01AA83 1D668D24 4484AEBC 3B04512C
-		827B0DE5 69E9B07A A39ACCC0 F95F5410
-		729D5639 4C37CECB B2522FB3 8D37FDC1
-		72899363 BBA441AC A5F47F08 6CD3B3FE
-		CEFB3783 B2E1BA96 71AAF7B4 AFB61B1D
-		0CC513E7 52FF2333 9F726D2C CDE53B4A
-		810C0D4F E1F419A3 CDA0832B 8440565A
-		35BF00F6 4CA9F869 ED10E245 469C233E
+		TwitterInc
+		200 User License
+		EA7E-890007
+		1D77F72E 390CDD93 4DCBA022 FAF60790
+		61AA12C0 A37081C5 D0316412 4584D136
+		94D7F7D4 95BC8C1C 527DA828 560BB037
+		D1EDDD8C AE7B379F 50C9D69D B35179EF
+		2FE898C4 8E4277A8 555CE714 E1FB0E43
+		D5D52613 C3D12E98 BC49967F 7652EED2
+		9D2D2E61 67610860 6D338B72 5CF95C69
+		E36B85CC 84991F19 7575D828 470A92AB
 		—— END LICENSE ——
 
 * 为Sublime Text 3配置Python开发环境
@@ -148,6 +148,23 @@ mac应用安装指南(信安方向)
 #### ssh-copy-id
 Mac下没有`ssh-copy-id`，所以需要安装一个，会比`scp`方便
 * 运行命令`brew install ssh-copy-id`使用`brew`来安装
+
+#### dirsearch
+
+目录扫描工具
+
+#### jq
+
+json命令行解析工具
+
+#### thefuck
+
+[thefuck](https://github.com/nvbn/thefuck)修正你在命令行输入的前一个命令
+![image_here](https://raw.githubusercontent.com/nvbn/thefuck/master/example.gif) 
+
+#### docker
+
+搭环境神器
 				
 以下顺序任意
 ===
