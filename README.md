@@ -48,7 +48,7 @@ mac应用安装指南(信安方向)
 ===
 #### 编辑器(个人喜好了，信安方向的话，推荐Sublime Text 3)
 * 官网下载sublime text 3 OS X版
-* 在[这里](http://www.xiumu.org/note/sublime-text-3.shtml)有破解、配置、安装中文包的详细方法。这里附上__License__
+* 在[这里](http://www.xiumu.org/note/sublime-text-3.shtml)有破解、配置、安装中文包的详细方法。这里附上**License**
 
 		—– BEGIN LICENSE —–
 		TwitterInc
@@ -65,7 +65,7 @@ mac应用安装指南(信安方向)
 		—— END LICENSE ——
 
 * 为Sublime Text 3配置Python开发环境
-	* __ctrl+`__粘贴运行下列代码安装Package Control
+	* **ctrl+`**粘贴运行下列代码安装Package Control
 		
 			import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 			
