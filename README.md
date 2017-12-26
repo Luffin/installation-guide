@@ -48,7 +48,7 @@ mac应用安装指南(信安方向)
 ===
 #### 编辑器(个人喜好了，信安方向的话，推荐Sublime Text 3)
 * 官网下载sublime text 3 OS X版
-* 在[这里](http://www.xiumu.org/note/sublime-text-3.shtml)有破解、配置、安装中文包的详细方法。这里附上**License**
+* 在[这里](http://www.xiumu.org/note/sublime-text-3.shtml)有破解、配置、安装中文包的详细方法。这里附上**License(2017.12.26)**
 
 		—– BEGIN LICENSE —–  
 		TwitterInc  
