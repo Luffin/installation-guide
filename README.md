@@ -69,7 +69,7 @@ mac应用安装指南(信安方向)
 
 #### Metasploit渗透测试神器
 * [点击这里](http://www.freebuf.com/articles/system/36924.html)有安装的详细说明
-* 但是要特别注意的是，这篇文章时间略早，msf对应的ruby版本已经有了变化，具体可以在github的metasploit项目里查看msf最新适合的ruby版本，目前的版本是`ruby 2.1.6p336`
+* 但是要特别注意的是，这篇文章时间略早，msf对应的ruby版本已经有了变化，具体可以在github的metasploit项目里查看msf最新适合的ruby版本
 * __需要注意的是，老版本中的msfpaylode、msfencode现在统一到同一个命令下，叫`msfvenom`，使用`msfvenom -h`查看使用方法__
 
 #### Nmap(扫描神器)
@@ -82,39 +82,28 @@ mac应用安装指南(信安方向)
 #### MAMP(Apache＋PHP＋MySQL环境)
 * 安装好后，打开`.zshrc`文件，把里面的`export PATH`改为`export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/MAMP/Library/bin/"`这样就可在打开MAMP之后直接在终端输入`mysql`进入mysql终端界面
 
-#### UItraEdit(16进制编辑器)
-* 在machunter中搜索即可下载到破解中文版
+#### 010Edit(16进制编辑器)
+* 很好用，但是目前没找到破解版
 
 #### BurpSuite(抓包神器)
-* [破解版下载地址](http://www.freebuf.com/tools/18483.html)
+* [破解版下载地址](https://github.com/x-Ai/BurpUnlimitedre)
 * [使用介绍](http://drops.wooyun.org/tools/1548)
 * [抓https包的配置，要下载burp的证书](http://blog.csdn.net/zyw_anquan/article/details/47904495)
-
-
-#### FireFox浏览器(附带各种牛逼插件)
-* AutoProxy(快速设置代理插件，可配合BurpSuite使用)
-* HackBar
-* FireBug
-* ModifyHeaders
 
 #### Chrome
 *	Chrome插件推荐
 	*	postman
 	*	EditThisCookie(修改cookie)
-	*	SwitchySharp(很方便的代理切换工具)
+	*	Proxy SwitchyOmega(很方便的代理切换工具)
 	*	Octotree(看github时的神器，在浏览器左侧生成类似编辑器的侧边栏，可以显示整个项目树，方便总览项目)
 	*	OneTab(有时看到一些网站不错，但是又以下没时间看，就可以把这个网站存放在OneTab中方便以后查看)
 	*	哔哩哔哩助手\_(:з」∠)\_
 	*	Momentum(好看的Chrome标签页，姚总推荐)
 	*	Avatars for Github(在github动态处显示出不同人的头像，看起来更方便)
 	*   Power Zoom(鼠标悬停放大图片，看妹子头像\_(:з」∠)\_)
-	
-#### Python模块
-* BeautifulSoup(HTML解析)
-* pwntools(CTF快速编写exploit指定产品)
-* requests(比urllib、urllib2更简单好用)
-* xlrd(读取excel)和xlwt(创建excel表)，两个一起使用效果拔群
-* pinyin4py(Python里转换汉字到拼音的模块)
+	*   Gliffy Diagrams画各种图
+	*   pakku：哔哩哔哩弹幕过滤器
+	*   
 
 #### Wireshark(网络嗅探抓包神器)
 * 自行官网下载
@@ -151,21 +140,29 @@ json命令行解析工具
 
 搭环境神器
 				
-以下顺序任意
+其他
 ===
 #### Aria2(下载神器！下载百度网盘等不会被限速)
-	* 安装`brew install aria2`
-	* 之后在[这里](https://github.com/yangshun1029/aria2gui)下到中文GUI版本
-	* 然后在[这里](https://github.com/acgotaku/BaiduExporter/releases)下到百度网盘Chrome插件，可以在百度网盘里我的设备盘多出一个导出下载按钮，导入Aria2来下载
-	* 在[这里](https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc)下到Chrome插件版的Aria2：`YAAW`，在Chrome浏览器中管理下载任务。__注：该插件为英文版，并且需要翻墙到谷歌商店下载__
+
+* 安装`brew install aria2`
+* 之后在[这里](https://github.com/yangshun1029/aria2gui)下到中文GUI版本
+* 然后在[这里](https://github.com/acgotaku/BaiduExporter/releases)下到百度网盘Chrome插件，可以在百度网盘里我的设备盘多出一个导出下载按钮，导入Aria2来下载
+* 在[这里](https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc)下到Chrome插件版的Aria2：`YAAW`，在Chrome浏览器中管理下载任务。__注：该插件为英文版，并且需要翻墙到谷歌商店下载__
+
 #### 词典(Mac自带的词典比较少，而且没有专门的计算机词典，需要自己下载)
-	* 这边提供一个算是全的网站[http://abloz.com/huzheng/stardict-dic/zh_CN/](http://abloz.com/huzheng/stardict-dic/zh_CN/)
-	* 下载`DictUnifler`软件，打开软件将下载对文件包拖入软件中转换生成词典文件。软件会将生产的词典文件自动导入到词典软件的词典目录中
-	* 打开词典软件偏好设置，勾选并拖动词典以调整顺序	
+
+* 这边提供一个算是全的网站[http://abloz.com/huzheng/stardict-dic/zh_CN/](http://abloz.com/huzheng/stardict-dic/zh_CN/)
+* 下载`DictUnifler`软件，打开软件将下载对文件包拖入软件中转换生成词典文件。软件会将生产的词典文件自动导入到词典软件的词典目录中
+* 打开词典软件偏好设置，勾选并拖动词典以调整顺序	
+
 #### MacDown(markdown必备)
-#### keka目前见到的最简洁功能最全的加解压软件
+
+#### keka目前见到的最简洁功能最全的解压软件
+
 #### dash(api文档)
+
 #### shadowsocksX(翻墙啊)
+
 #### 百度云盘(hehe~)
-#### 迅雷
+
 #### 搜狗拼音
