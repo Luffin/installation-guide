@@ -29,21 +29,6 @@ mac应用安装指南(信安方向)
 *   Layout(修改当前窗口界面布局)
 *   关于Feature中的Terminal/Shell里调用iTerm代码可见[这里](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred/)
 
-#### macports(类似homebrew的包管理工具，可以便捷安装python里的PIL、OpenCv库)
-* `brew install Caskroom/cask/macports`安装
-* 将macports的路径添加到`.zshrc`里的`export PATH`中
-	
-#### machunter(可以安装各种你懂的软件)
-*	adobe系列(看需求)
-	* **在Safari下有个`ClickToPlugin`的插件，可以强制转会flash视频成html5，这样看视频就不会像flash那样出现发热严重和掉电快的情况。推荐安装！**
-*	navicat(数据库)	
-*	transmit(ftp文件管理)
-*	mamp(本地服务器搭建)
-*	istat menus(好用的硬件监控)
-*	Parallels desktop(虚拟机)
-*   个人需求了~
-
-
 信安学习相关工具
 ===
 #### 编辑器(个人喜好了，信安方向的话，推荐Sublime Text 3)
