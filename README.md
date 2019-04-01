@@ -1,6 +1,6 @@
-mac应用安装指南(信安方向)
+# mac应用安装指南(信安方向)
 ===
-### 优先级降序排列
+## 基本
 
 #### xcode(自带环境,安装后自动集成git，可直接使用)
 
@@ -21,15 +21,35 @@ mac应用安装指南(信安方向)
 *	目前个人比较喜欢`Monokai Soda`这个配色方案
 *   在iTerm2[官网](http://www.iterm2.com/documentation-images.html)有一个`imgcat`插件，可以直接在命令行中查看图片，非常方便，效果类似这样![imgcat](http://www.iterm2.com/images/inline_image_sparky_demo.png)只需要在[这里](https://raw.github.com/gnachman/iTerm2/master/tests/imgcat)下载imgcat的源码，放入到`/usr/local/bin`之类的目录中，加上执行权限`chmod +x imgcat`，就可以在命令行中当做命令来调用了
 	
-#### alfred2(效率神器)
+#### Alfred3(效率神器)
 *   Hide Desktop(显示或隐藏桌面文件)
 *   New File(在Finder中创建文件)
 *   Show Desktop(收起所有软件显示桌面)
 *   TerminalFinder(根据当前Finder目录打开Terminal并进入目录，或在Terminal打开对于Finder目录)
 *   Layout(修改当前窗口界面布局)
+*   Unicode tools(可进行urlencode/decode，base64encode/decode，htmlencode/decode，做CTF很方便)
 *   关于Feature中的Terminal/Shell里调用iTerm代码可见[这里](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred/)
+*   使用技巧：
+	* Alfred3框中敲击空格可根据名字搜索文件或文件夹
+	* Alfred3框中可直接计算算式
 
-信安学习相关工具
+#### OutLook
+
+目前找到的唯一一个能使用pop3的邮件客户端了。。
+
+#### Teamviewer
+
+目前Teamviewer只能连接5分钟，需要破解，这里有个脚本可以试试![https://bbs.feng.com/read-htm-tid-11907107.html](https://bbs.feng.com/read-htm-tid-11907107.html)
+
+#### IINA
+
+Mac下最好最强的播放器，开源，国人开发，不断更新
+
+#### iStat Menus
+
+Mac状态查看工具
+
+## 信息安全相关工具
 ===
 #### 编辑器(个人喜好了，信安方向的话，推荐Sublime Text 3)
 * 官网下载sublime text 3 OS X版
@@ -76,14 +96,14 @@ mac应用安装指南(信安方向)
 * `brew install nmap`安装nmap
 
 #### Sqlmap(sql注入神器)
-* `brew install sqlmap`安装(但是用brew安装的版本太老了)建议在brew装好sqlmap之后，再去Github上知道sqlmap的项目，把源码包下载到电脑上。到`/usr/local/Cellar/sqlmap/0.9_1`目录下，把下载的源码包名改为`libexec`替换掉原有的包。这样就能直接在终端使用`sqlmap`命令使用最新版的sqlmap了
+* Github下载![源码](https://github.com/sqlmapproject/sqlmap)，再把`sqlmap.py`文件软链到`/usr/local/bin/sqlmap`，这样命令行可随时调用
 
 
 #### MAMP(Apache＋PHP＋MySQL环境)
 * 安装好后，打开`.zshrc`文件，把里面的`export PATH`改为`export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/MAMP/Library/bin/"`这样就可在打开MAMP之后直接在终端输入`mysql`进入mysql终端界面
 
 #### 010Edit(16进制编辑器)
-* 很好用，但是目前没找到破解版
+* <del>很好用，但是目前没找到破解版</del>已找到破解版
 
 #### BurpSuite(抓包神器)
 * [破解版下载地址](https://github.com/x-Ai/BurpUnlimitedre)
@@ -92,8 +112,6 @@ mac应用安装指南(信安方向)
 
 #### Chrome
 *	Chrome插件推荐
-	*	postman
-	*	EditThisCookie(修改cookie)
 	*	Proxy SwitchyOmega(很方便的代理切换工具)
 	*	Octotree(看github时的神器，在浏览器左侧生成类似编辑器的侧边栏，可以显示整个项目树，方便总览项目)
 	*	OneTab(有时看到一些网站不错，但是又以下没时间看，就可以把这个网站存放在OneTab中方便以后查看)
@@ -103,7 +121,6 @@ mac应用安装指南(信安方向)
 	*   Power Zoom(鼠标悬停放大图片，看妹子头像\_(:з」∠)\_)
 	*   Gliffy Diagrams画各种图
 	*   pakku：哔哩哔哩弹幕过滤器
-	*   
 
 #### Wireshark(网络嗅探抓包神器)
 * 自行官网下载
@@ -131,6 +148,10 @@ Mac下没有`ssh-copy-id`，所以需要安装一个，会比`scp`方便
 
 json命令行解析工具
 
+通常可以配合`http`使用，将请求返回的json数据美化解析
+
+`http http://xxxxx/xxx/json | jq`
+
 #### thefuck
 
 [thefuck](https://github.com/nvbn/thefuck)修正你在命令行输入的前一个命令
@@ -139,19 +160,73 @@ json命令行解析工具
 #### docker
 
 搭环境神器
-				
-其他
-===
-#### Aria2(下载神器！下载百度网盘等不会被限速)
 
-* 安装`brew install aria2`
-* 之后在[这里](https://github.com/yangshun1029/aria2gui)下到中文GUI版本
-* 然后在[这里](https://github.com/acgotaku/BaiduExporter/releases)下到百度网盘Chrome插件，可以在百度网盘里我的设备盘多出一个导出下载按钮，导入Aria2来下载
-* 在[这里](https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc)下到Chrome插件版的Aria2：`YAAW`，在Chrome浏览器中管理下载任务。__注：该插件为英文版，并且需要翻墙到谷歌商店下载__
+#### 中国蚁剑
+
+跨平台开源菜刀，界面好看，支持插件，装就完事儿了
+
+![源码](https://github.com/AntSwordProject/antSword)
+
+![加载器](https://github.com/AntSwordProject/AntSword-Loader)
+
+#### Microsoft Remote Desktop
+
+微软官方出品远程桌面连接软件，APP Store要换区下载，自行搜索如何换区
+
+#### DB Browser for SQLite
+
+SQLite数据文件查看客户端
+
+#### Studio 3T
+
+mongoDB连接客户端
+
+#### FastoRedis
+
+Redis连接客户端
+
+#### Sequel Pro
+
+MySQL连接客户端
+
+## iOS APP测试工具
+
+#### xcode
+
+* 看日志
+* 导入ipa包
+
+#### PP助手、iTool Pro
+
+* 导入ipa包
+* 导入导出文件到手机
+
+#### Apple Configurator 2
+
+导出由App Store安装的APP的ipa包，教程在![这里](https://www.jianshu.com/p/7710c68f38cf)
+
+#### Hopper Disassembler v4
+
+逆向ipa包中可执行文件，查看源码
+
+## Android APP测试工具
+
+#### Android-Crack-Tool
+
+安卓测试套件，一般拿来反编译看源码用，比较方便
+
+只要三步就搞定
+
+* 提取DEX
+* DEX2JAR
+* JDGUI
+				
+## 其他
+===
 
 #### 词典(Mac自带的词典比较少，而且没有专门的计算机词典，需要自己下载)
 
-* 这边提供一个算是全的网站[http://abloz.com/huzheng/stardict-dic/zh_CN/](http://abloz.com/huzheng/stardict-dic/zh_CN/)
+* <del>这边提供一个算是全的网站[http://abloz.com/huzheng/stardict-dic/zh_CN/](http://abloz.com/huzheng/stardict-dic/zh_CN/)</del>已失效
 * 下载`DictUnifler`软件，打开软件将下载对文件包拖入软件中转换生成词典文件。软件会将生产的词典文件自动导入到词典软件的词典目录中
 * 打开词典软件偏好设置，勾选并拖动词典以调整顺序	
 
@@ -166,3 +241,38 @@ json命令行解析工具
 #### 百度云盘(hehe~)
 
 #### 搜狗拼音
+
+#### Tunnelblick
+
+#### 基于openVPN的VPN工具，挺好用的
+
+#### CleanMyMac
+
+最好的自动清理软件了吧
+
+#### OmniDiskSweeper
+
+最好的手动清理软件了吧
+
+## 骚插件
+
+#### WeChatPlugin-MacOS
+
+Mac微信客户端功能增强插件，支持防撤回，贼强![https://github.com/TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
+
+#### QQPlugin-macOS
+
+上一个同作者写的QQ防撤回插件![https://github.com/TKkk-iOSer/QQPlugin-macOS](https://github.com/TKkk-iOSer/QQPlugin-macOS)
+
+#### BaiduNetdiskPlugin-macOS
+
+百度网盘限速破解插件，正常安装官方百度网盘后，安装此插件，之后下载东西点击试用，速度起来后就可以一直保持了。要是速度没了，就退出百度网盘，再打开，点击试用，速度还是能起来
+
+![https://github.com/CodeTips/BaiduNetdiskPlugin-macOS](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS)
+
+
+
+
+
+
+
