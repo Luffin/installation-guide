@@ -39,7 +39,7 @@
 
 #### Teamviewer
 
-目前Teamviewer只能连接5分钟，需要破解，这里有个脚本可以试试![https://bbs.feng.com/read-htm-tid-11907107.html](https://bbs.feng.com/read-htm-tid-11907107.html)
+目前Teamviewer只能连接5分钟，需要破解，这里有个脚本可以试试[https://bbs.feng.com/read-htm-tid-11907107.html](https://bbs.feng.com/read-htm-tid-11907107.html)
 
 #### IINA
 
@@ -96,7 +96,7 @@ Mac状态查看工具
 * `brew install nmap`安装nmap
 
 #### Sqlmap(sql注入神器)
-* Github下载![源码](https://github.com/sqlmapproject/sqlmap)，再把`sqlmap.py`文件软链到`/usr/local/bin/sqlmap`，这样命令行可随时调用
+* Github下载[源码](https://github.com/sqlmapproject/sqlmap)，再把`sqlmap.py`文件软链到`/usr/local/bin/sqlmap`，这样命令行可随时调用
 
 
 #### MAMP(Apache＋PHP＋MySQL环境)
@@ -165,9 +165,9 @@ json命令行解析工具
 
 跨平台开源菜刀，界面好看，支持插件，装就完事儿了
 
-![源码](https://github.com/AntSwordProject/antSword)
+[源码](https://github.com/AntSwordProject/antSword)
 
-![加载器](https://github.com/AntSwordProject/AntSword-Loader)
+[加载器](https://github.com/AntSwordProject/AntSword-Loader)
 
 #### Microsoft Remote Desktop
 
@@ -203,7 +203,7 @@ MySQL连接客户端
 
 #### Apple Configurator 2
 
-导出由App Store安装的APP的ipa包，教程在![这里](https://www.jianshu.com/p/7710c68f38cf)
+导出由App Store安装的APP的ipa包，教程在[这里](https://www.jianshu.com/p/7710c68f38cf)
 
 #### Hopper Disassembler v4
 
@@ -214,6 +214,8 @@ MySQL连接客户端
 #### Android-Crack-Tool
 
 安卓测试套件，一般拿来反编译看源码用，比较方便
+
+[https://github.com/Jermic/Android-Crack-Tool](https://github.com/Jermic/Android-Crack-Tool)
 
 只要三步就搞定
 
@@ -258,17 +260,17 @@ MySQL连接客户端
 
 #### WeChatPlugin-MacOS
 
-Mac微信客户端功能增强插件，支持防撤回，贼强![https://github.com/TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
+Mac微信客户端功能增强插件，支持防撤回，贼强[https://github.com/TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
 
 #### QQPlugin-macOS
 
-上一个同作者写的QQ防撤回插件![https://github.com/TKkk-iOSer/QQPlugin-macOS](https://github.com/TKkk-iOSer/QQPlugin-macOS)
+上一个同作者写的QQ防撤回插件[https://github.com/TKkk-iOSer/QQPlugin-macOS](https://github.com/TKkk-iOSer/QQPlugin-macOS)
 
 #### BaiduNetdiskPlugin-macOS
 
 百度网盘限速破解插件，正常安装官方百度网盘后，安装此插件，之后下载东西点击试用，速度起来后就可以一直保持了。要是速度没了，就退出百度网盘，再打开，点击试用，速度还是能起来
 
-![https://github.com/CodeTips/BaiduNetdiskPlugin-macOS](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS)
+[https://github.com/CodeTips/BaiduNetdiskPlugin-macOS](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS)
 
 
 
